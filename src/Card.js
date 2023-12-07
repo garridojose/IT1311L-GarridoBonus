@@ -8,7 +8,7 @@ function Card(props) {
     setIsClicked(!isClicked);
   };
 
-  const card = `card ${isClicked ? 'clicked' : ''}`;
+  const card = 'card ${isClicked ? 'clicked' : ''}';
 
   return (
     <div className={card} onClick={CardClick}>
